@@ -1,0 +1,16 @@
+syntax = "proto3";
+package viper.wire;
+
+
+message Foo {
+  int32 number = 2;
+  repeated Bar bars = 3;
+}
+
+message Bar {
+  string name = 1;
+  int32 age = 2;
+  int32 zip = 3;
+  string city = 4;
+  int64 num = 15;
+}
